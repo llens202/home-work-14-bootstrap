@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>       
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="container text-center mt-3">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Фільми</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            ТОП-100
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" href="#">За коментарями</a></li>
+            <li><a class="dropdown-item" href="#">За переглядами</a></li>
+            <li><a class="dropdown-item" href="#">За рейтингом</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="container text-center mt-3">
+    <div class="row g-3">
+         <div class="col-12 col-md-6 col-lg-3">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+  </div>
+
+    <div class="carousel-inner border rounded">
+    <div class="carousel-item active">
+      <img src="./images/pexels-aboodi-31534263.jpg" class="d-block w-100" alt="Слайд 1">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/pexels-izafi-28466908.jpg" class="d-block w-100" alt="Слайд 2">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/pexels-lebele-15793147.jpg" class="d-block w-100" alt="Слайд 3">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/pexels-shox-31251176.jpg" class="d-block w-100" alt="Слайд 3">
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</div>
+        <div class="col-12 col-md-6 col-lg-6">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Що таке Bootstrap?
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Bootstrap – це інструментарій відкритого коду для розробки з використанням HTML, CSS і JavaScript. Ми використовуємо його для створення адаптивних і мобільно-оптимізованих веб-сайтів. Він надає нам готові стилі та компоненти, що дозволяє швидко розробляти інтерфейси користувачів, не починаючи з нуля.
+
+        Bootstrap містить систему сітки для створення макетів сторінок, компоненти інтерфейсу, такі як кнопки, картки, модальні вікна, і JavaScript плагіни для додавання інтерактивності до веб-сторінок. Його використання спрощує і прискорює процес розробки веб-сайтів, роблячи їх одночасно сумісними з різними пристроями та браузерами.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Що таке фреймворк (framework)?
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Framework - це набір бібліотек та інструментів, які ми використовуємо для спрощення розробки програмного забезпечення. Він надає готову структуру, яку ми можемо використовувати для створення своїх додатків, що дозволяє нам зосередитися на основній логіці, а не на низькорівневих деталях.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+       Що таке бібліотека (library)?
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Бібліотека (library) – це зібрання попередньо написаного коду, яке ми використовуємо у своїх програмах для вирішення специфічних задач. Вона містить функції, класи, об'єкти та інші елементи програмування, які дозволяють нам не писати код з нуля для загальних задач. Використовуючи бібліотеки, ми можемо значно зменшити час розробки та підвищити надійність своїх додатків, оскільки ці бібліотеки зазвичай проходять ретельне тестування та оптимізацію.</div>
+    </div>
+  </div>
+</div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+             <div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon1">@</span>
+  <input type="text" class="form-control" placeholder="Ім'я користувача" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Ім'я користувача одержувача" aria-label="Recipient’s username" aria-describedby="basic-addon2">
+  <span class="input-group-text" id="basic-addon2">@example.com</span>
+</div>
+
+<div class="mb-3">
+  <label for="basic-url" class="form-label">Ваша URL-адреса з власним ім'ям</label>
+  <div class="input-group">
+    <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+  </div>
+  <div class="form-text" id="basic-addon4"></div>
+</div>
+
+<div class="input-group mb-3">
+  <span class="input-group-text">$</span>
+  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+  <span class="input-group-text">.00</span>
+</div>
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Ім'я користувача" aria-label="Username">
+  <span class="input-group-text">@</span>
+  <input type="text" class="form-control" placeholder="Сервер" aria-label="Server">
+</div>
+
+<div class="input-group">
+  <span class="input-group-text">З текстовим полем</span>
+  <textarea class="form-control" aria-label="With textarea"></textarea>
+</div>
+</div>
+</div>
+
+</main>
+
+<footer class="container text-center mt-3">
+        <div class="bg-dark text-white mt-5 py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+        <span>© 2026 Фільми</span>
+        <ul class="nav">
+            <li class="nav-item"><a href="#" class="nav-link text-white px-2">Контакти</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white px-2">Про нас</a></li>
+        </ul>
+    </div>
+    </div>
+
+</footer>
+    
+</body>
+</html>
