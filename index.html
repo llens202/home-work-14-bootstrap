@@ -69,7 +69,7 @@
   </button>
 </div>
 </div>
-        <div class="col-12 col-md-6 col-lg-6">
+        <div class="col-12 col-md-6">
             <div class="accordion accordion-flush" id="accordionFlushExample">
   <div class="accordion-item">
     <h2 class="accordion-header">
@@ -104,45 +104,40 @@
     </div>
   </div>
 </div>
-        </div>
+</div>
         <div class="col-12 col-md-6 col-lg-3">
              <div class="input-group mb-3">
-  <span class="input-group-text" id="basic-addon1">@</span>
-  <input type="text" class="form-control" placeholder="Ім'я користувача" aria-label="Username" aria-describedby="basic-addon1">
-</div>
-
-<div class="input-group mb-3">
-  <input type="text" class="form-control" placeholder="Ім'я користувача одержувача" aria-label="Recipient’s username" aria-describedby="basic-addon2">
-  <span class="input-group-text" id="basic-addon2">@example.com</span>
-</div>
-
-<div class="mb-3">
-  <label for="basic-url" class="form-label">Ваша URL-адреса з власним ім'ям</label>
-  <div class="input-group">
-    <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
-    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+      <form class="p-3 border rounded bg-light">
+                    <h5 class="mb-3">Зворотний зв'язок</h5>
+                    <div class="mb-3">
+                        <label class="form-label">Ваше ім'я</label>
+                        <input type="text" class="form-control" placeholder="Іван Іванов">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Тема звернення</label>
+                        <select class="form-select">
+                            <option>Питання</option>
+                            <option>Пропозиція</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Повідомлення</label>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="check">
+                        <label class="form-check-label" for="check">Згоден з умовами</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Надіслати</button>
+                </form>
+            </div>
+      </div>
   </div>
-  <div class="form-text" id="basic-addon4"></div>
-</div>
 
-<div class="input-group mb-3">
-  <span class="input-group-text">$</span>
-  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-  <span class="input-group-text">.00</span>
-</div>
-
-<div class="input-group mb-3">
-  <input type="text" class="form-control" placeholder="Ім'я користувача" aria-label="Username">
-  <span class="input-group-text">@</span>
-  <input type="text" class="form-control" placeholder="Сервер" aria-label="Server">
-</div>
-
-<div class="input-group">
-  <span class="input-group-text">З текстовим полем</span>
-  <textarea class="form-control" aria-label="With textarea"></textarea>
-</div>
-</div>
-</div>
 
 </main>
 
